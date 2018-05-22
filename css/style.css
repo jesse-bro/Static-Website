@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font:normal 75% Arial, Helvetica, sans-serif;
+ 
+  min-height: 100px; 
+}
+
+footer{
+ 
+	
+}
+
+main{
+	overflow: hidden;
+	color:white;
+}
+
+canvas {
+  display: block;
+  /* vertical-align: bottom; */
+}
+
+p{
+	margin-bottom:100px;
+}
+
+
+#Info{
+	background-color: #fffaf0;
+	color: black;
+	text-align: center;
+}
+
+#header{
+	
+	color: white;
+	height: calc(100vh - 260px);
+}
+
+#intro{
+	margin-top: 100px !important;
+	
+	text-align: justify;
+	font-size: 16px;
+	vertical-align: middle;
+	
+}
+
+#education{
+	position: relative;
+	left: 100px;
+	margin-bottom: 50px;
+	font-size: 16px;
+	text-align: justify;
+
+}
+
+h3,h4{
+	font-size: 34pt;
+	color: #00bfff;
+}
+
+.header-name{
+	margin-top: 250px !important;
+	margin-bottom: 10px !important;
+	font-size: 36pt;
+}
+
+.utrgvlogo{
+	display: block;
+	width: 208px;
+	heigh: 110px;
+}
+
+.ceedlogo{
+	display: block;
+	width: 208px;
+	height: 110px;
+}
+
+.ljlogo{
+	display:block;
+	width: 208px;
+	height: 110px;
+}
+
+
+.city{
+	width: auto;
+	display:block;
+	margin-left: calc(-1920px + 100vw);
+}
+
+.hparser{
+	width: 100%;
+	height: 150px;
+	display: block;
+}
+
+.fparser{
+	width: 100%;
+	height: 150px;
+	display: block;
+}
+
+
+#mapid { height: 180px;}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -1;
+}
+#particles canvas{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index:-1;
+}
+
+
