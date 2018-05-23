@@ -24,9 +24,14 @@ p{
 	margin-bottom:100px;
 }
 
+a{
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+}
 
 #Info{
-	background-color: #fffaf0;
+	background-color: white; 
 	color: black;
 	text-align: center;
 }
@@ -38,26 +43,36 @@ p{
 }
 
 #intro{
-	margin-top: 100px !important;
 	
+	margin-top: 50px !important;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: -100px;
+	display: inline-block;
 	text-align: justify;
-	font-size: 16px;
+	font-size: 20px;
 	vertical-align: middle;
+	position: relative;
 	
 }
 
 #education{
 	position: relative;
-	left: 100px;
-	margin-bottom: 50px;
-	font-size: 16px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 25px;
+	font-size: 20px;
 	text-align: justify;
+}
 
+#contact-me{
+	
 }
 
 h3,h4{
-	font-size: 34pt;
-	color: #00bfff;
+	font-size: 40pt;
+	color: #00bfff; 
+	text-align: center;
 }
 
 .header-name{
@@ -69,19 +84,27 @@ h3,h4{
 .utrgvlogo{
 	display: block;
 	width: 208px;
-	heigh: 110px;
+	height: 110px;
+	float: left;
 }
 
 .ceedlogo{
 	display: block;
 	width: 208px;
 	height: 110px;
+	float: left;
 }
 
 .ljlogo{
 	display:block;
 	width: 208px;
 	height: 110px;
+	float: left;
+}
+
+.utrgv,.ceed,.lj{
+	display: inline-block;
+	margin-bottom: 20px;
 }
 
 
@@ -103,6 +126,26 @@ h3,h4{
 	display: block;
 }
 
+.round-button {
+    width: 10%;
+    height: 0;
+    padding-bottom: 10%;
+    border-radius: 50%;
+    border: 2px solid #f5f5f5;
+    overflow: hidden;
+    background: #464646;
+    box-shadow: 0 0 3px gray;
+}
+.round-button:hover {
+    background: #262626;
+}
+.round-button img {
+    display: block;
+    width: 76%;
+    padding: 12%;
+    height: auto;
+}
+
 
 #mapid { height: 180px;}
 
@@ -115,10 +158,10 @@ h3,h4{
   width: 100%;
   height: 100%;
   background-color: black;
-  background-image: url("");
-  background-repeat: no-repeat;
+  background-image: url("../img/part2.jpg");
+  background-repeat:  no-repeat; 
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: bottom;/*50% 50%; */
   z-index: -1;
 }
 #particles canvas{
