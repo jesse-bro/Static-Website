@@ -13,7 +13,7 @@
 	<script type="text/javascript" src="js/particles.min.js"></script>
 	<script type="text/javascript">
 		particlesJS.load('particles-js', 'js/particlesjs-config.json');
-		<!-- particlesJS.load('particles-js2', 'js/particlesjs-config2.json'); -->
+		particlesJS.load('particles-js2', 'js/particlesjs-config2.json'); 
 	</script>
 	<link rel="stylesheet" href="js/leaflet/leaflet.css" >
 	<script src="js/leaflet/leaflet.js"> </script>
@@ -25,26 +25,74 @@
 	<header id="header"><center>
 		<div class="container">
 			<h1 class="header-name">Jesus Villarreal Jr </h1>
-			<h2 class="header-title">Developer, bold, conqueror...</h2>
+			<h2 class="header-title">Developer, Flexible, Athletic, Conqueror...</h2>
 		</div> </center>
 	</header>
 	
-	
 	<!-- <div id="particles-js2"></div> -->
 	<div id="Info">
-		<!-- <img class="hparser" src="img/hparser.png" > !-->
 		<div id="intro">
 			<div align="center">
-				<h3>How wonderful to meet you! </h3>
+				<h3>Howdy Y'all! </h3>
 				<p>
 				<b>My name is Jesus Villarreal Jr,and I am an aspiring web developer/network technician seeking entry-level opportunities. I currently reside in South Texas. </b>
 				</p>
-				<p> I recently graduate from <a href="http://www.utrgv.edu/en-us/"> University of Texas Rio Grande Valley </a> with a bachelors in Computer Science. I also acquired several CompTIA certificates such as <b><font color="red">CompTIA Security+, CompTIA Network+, and CompTIA A+</font></b>. I enjoy learning new subjects and creating applications using modern languages and frameworks. Every now and then I go to Technology Events to keep up with recent technology changes. Besides academics, I'am often be found playing board games and video games, or lifting weights, & going to the nearest bike trail.
+				<p> I recently graduate from <a href="http://www.utrgv.edu/en-us/"> University of Texas Rio Grande Valley </a> with a bachelors in Computer Science. I also acquired several CompTIA certificates such as <b><font color="red">CompTIA Security+, CompTIA Network+, and CompTIA A+</font></b>. I enjoy learning new subjects and creating applications using modern languages and frameworks. Every now and then I go to Technology Events to keep up with recent technology changes. Besides academics, I'am often be found playing board games and video games, or lifting weights & going to the nearest bike trail.
 			</div>
+		</div>
+		
+		<h5>Academic Projects</h5>
+		<div id="projects">
+			<div id="url-phishing">
+				<h6>URL Phishing Detection Chrome Extension</h6>
+				<p id="desc"><b>
+				Developed a Google Chrome Extension which detected if a Sites URL is Legitimate/Phishing by using Machine Learning.</b>
+				</p>
+				<ul style="list-style-type:square">
+					<li>Server and client-side implemented in Python/Flask, HTML, JavaScript, and using Chrome' n s API. </li>
+					<li>Used several python packages such as NumPy, Scikit-learn, pandas, and Matplotlib to implement Machine Learning.</li>
+					<li>Mainly focused in implementing the Server/Client-side, Google Chrome Extension, and data for use in the main Classifier.</li>
+					<li>Acquired data from different format text files and implemented data manipulation.</li>
+					<li>Wrote code to navigate through the data and check through each row for several 'features'.</li>
+					<li>Assisted in developing two classifiers; Naive Bayes and SVM Classifier.</li>
+					<li>Data included 25,000 verified phishing URL's and 1,000 Legitimate URL's.</li>
+				</ul>
+				
+				<div id="web-dev">
+				<h6>Web Dev. Social Media Mock-Up Site</h6>
+				<p id="desc"><b>
+				Created a Social Media mock-up website with users and blog-like capabilities alongside a team of 2. Users were able to create an account, log in/ log out, update their profile, post, and post events.
+				</b></p>
+				<ul style="list-style-type:square">
+					<li>Implemented in Yii2 Framework. </li>
+					<li>Connects to MySQL database and updates the database with new/deleted users, posts, and events.</li>
+				</ul>
+				
+				<div id="2d-game">
+				<h6>2D Zombie/Survival Game</h6>
+				<p id="desc"><b>
+				Collaborated on a team of 3 by developing a 2D zombie/survival video game. Users were able to interact with the game menu, pick up items, take damage from several obstacles in the map, and escape through a random generated exit tile.
+				</b></p>
+				<ul style="list-style-type:square">
+					<li>2D game developed in game engine Pygame. </li>
+					<li>Implemented in Python.</li>
+					<li>Mainly focused on the programming of all the movement of the characters, projectile models, and interaction/detecting collisions between models.</li>
+				</ul>
+				
+				<div id="jif">
+				<h6>Jif - CryptoCurrency Exchange Program</h6>
+				<p id="desc"><b>
+				Researched and documented a CryptoCurrency exchange system. Developed a mock up site in which a user would be able to use to exchange their coin for other currencies. Worked with a team of 4.
+				</b></p>
 			
+			</div>
+		
+		
+		
+		
+		
 		
 		</div>
-	
 	
 	
 		<h4>Education</h4>
@@ -54,13 +102,11 @@
 			<div class="col s12 m12 14 logo-box"><img class="utrgvlogo" src="img/utrgv.jpg">
 			</div>
 		
-		
 		<div id="utrgv">
 			<p>
 			<b>B.S. Computer Science</b> at <b> University of Texas Rio Grande Valley </b> - August 2012 to May 2017 <br />
 		</div>
 		</div>
-		
 		
 		<div class="ceed">
 			<div class="col s12 m12 14 logo-box"><img class="ceedlogo" src="img/CEED-logo.png">
@@ -82,7 +128,8 @@
 		</div>
 		</div>
 		
-		</div>
+		</div> <!-- End of #Education !-->
+		
 		<div id="contact-me">
 			<div class="round-button">
 			<a href="www.linkedin.com/in/jesus-villarreal-jr/">
@@ -99,19 +146,18 @@
 	</div> <!--end of #Info -->
 	
 	
-	
-	
-	
 	</main>
 	
 	
 </body>
 
 
+
+
 <footer>
 	
+	<b>Website made in the U.S.A!</b>
 	<script src="js/leaflet/leafletembed.js"> </script>
-
-
 </footer>
+
 </html>
