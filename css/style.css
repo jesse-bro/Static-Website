@@ -11,7 +11,7 @@ footer{
 	left:0;
 	right:0;
 	bottom: 0;
-	width: 100%;
+	width: 98%;
 	padding: 1em;
 	background-color: #efefef;
 	text-align: center;
@@ -37,6 +37,14 @@ a{
 	color: red;
 	font-weight: bold;
 	text-decoration: none;
+}
+
+hr{
+	border: none;
+	height: 2px;
+	width: 25%;
+	align: center;
+	background-color: white;
 }
 
 #Info{
@@ -110,6 +118,10 @@ h6{
 	font-size: 36pt;
 }
 
+.header-title{
+	font-size: 15pt;
+}
+
 .utrgvlogo{
 	display: block;
 	width: 208px;
@@ -143,16 +155,9 @@ h6{
 	margin-left: calc(-1920px + 100vw);
 }
 
-.hparser{
-	width: 100%;
-	height: 150px;
-	display: block;
-}
-
-.fparser{
-	width: 100%;
-	height: 150px;
-	display: block;
+.usa{
+	width: 16px;
+	height: 16px;
 }
 
 .round-button {
